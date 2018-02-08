@@ -9,7 +9,7 @@
 import Foundation
 import UIKit
 
-class PaginaUno : UIView {
+class PaginaUno : Pagina {
     
     @IBOutlet var vwContenedor: UIView!
     required init?(coder aDecoder: NSCoder) {
@@ -20,6 +20,10 @@ class PaginaUno : UIView {
     override init(frame: CGRect) {
         super.init(frame: frame)
         inicializar()
+    }
+    
+    override func animar() {
+        
     }
     
     private func inicializar() {

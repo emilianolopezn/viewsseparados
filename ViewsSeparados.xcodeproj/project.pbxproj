@@ -18,6 +18,7 @@
 		85FC103B202BB5A000307AB3 /* PaginaUno.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85FC103A202BB5A000307AB3 /* PaginaUno.swift */; };
 		85FC103D202BBCDE00307AB3 /* PaginaDos.xib in Resources */ = {isa = PBXBuildFile; fileRef = 85FC103C202BBCDE00307AB3 /* PaginaDos.xib */; };
 		85FC103F202BBCFD00307AB3 /* PaginaDos.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85FC103E202BBCFD00307AB3 /* PaginaDos.swift */; };
+		85FC1041202BD26800307AB3 /* Pagina.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85FC1040202BD26800307AB3 /* Pagina.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +56,7 @@
 		85FC103A202BB5A000307AB3 /* PaginaUno.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PaginaUno.swift; sourceTree = "<group>"; };
 		85FC103C202BBCDE00307AB3 /* PaginaDos.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PaginaDos.xib; sourceTree = "<group>"; };
 		85FC103E202BBCFD00307AB3 /* PaginaDos.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PaginaDos.swift; sourceTree = "<group>"; };
+		85FC1040202BD26800307AB3 /* Pagina.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Pagina.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -139,6 +141,7 @@
 				85FC1009202BB3AF00307AB3 /* ViewController.swift */,
 				85FC103A202BB5A000307AB3 /* PaginaUno.swift */,
 				85FC103E202BBCFD00307AB3 /* PaginaDos.swift */,
+				85FC1040202BD26800307AB3 /* Pagina.swift */,
 			);
 			name = ViewControllers;
 			sourceTree = "<group>";
@@ -298,6 +301,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				85FC103F202BBCFD00307AB3 /* PaginaDos.swift in Sources */,
+				85FC1041202BD26800307AB3 /* Pagina.swift in Sources */,
 				85FC100A202BB3AF00307AB3 /* ViewController.swift in Sources */,
 				85FC103B202BB5A000307AB3 /* PaginaUno.swift in Sources */,
 				85FC1008202BB3AF00307AB3 /* AppDelegate.swift in Sources */,

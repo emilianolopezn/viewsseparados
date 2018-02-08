@@ -25,6 +25,10 @@
                                 <rect key="frame" x="0.0" y="0.0" width="1024" height="656"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <gestureRecognizers/>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="eWK-rM-px7" appends="YES" id="VLw-h8-Bcs"/>
+                                </connections>
                             </view>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vwb-9F-um2">
                                 <rect key="frame" x="54" y="718" width="46" height="30"/>
@@ -47,6 +51,11 @@
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+                <swipeGestureRecognizer direction="down" id="eWK-rM-px7" userLabel="Contenedor swipe down">
+                    <connections>
+                        <action selector="doSwipeDownLibro:" destination="BYZ-38-t0r" id="LDF-hx-abG"/>
+                    </connections>
+                </swipeGestureRecognizer>
             </objects>
             <point key="canvasLocation" x="-98.4375" y="122.65625"/>
         </scene>
